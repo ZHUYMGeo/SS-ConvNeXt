@@ -1,0 +1,29 @@
+{
+  "data_path": "/home/zym/paper_model/HSIdata/IN/Indian_pines_corrected.mat",
+  "target_path": "/home/zym/paper_model/HSIdata/IN/Indian_pines_gt.mat",
+  "data_name": "Indian pines",
+  "train": {
+    "GPU": 1,
+    "epoch": 400,
+    "lr": 0.0001,
+    "patch_size": 9,
+    "batch_size": 16,
+    "num_class": 16
+  },
+  "mask_para": {
+    "mask_type_list": "Proportions,Fixed,Per_class",
+    "mask_type_choose": "Fixed",
+    "Proportions": {
+          "train_prop": 0.05,
+          "val_prop": 0.01
+    },
+    "Fixed": {
+          "fix_train_num": 200,
+          "fix_val_num": 300
+    },
+    "Per_class": {
+          "class_train_num": 5,
+          "class_val_num": 300
+    }
+  }
+}
