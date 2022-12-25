@@ -33,7 +33,7 @@ HSI_data
 ```
 
 ## Usage
-Take DS$^{2}$_cvNet method on the IN dataset as an example:
+Take DS²_cvNet method on the IN dataset as an example:
 
 1. Download the required data set and move to folder **./HSI_data**.
 2. Modify the file **config.josn**. If you choose In dataset, you should set patch size = 9, batch size = 16.
