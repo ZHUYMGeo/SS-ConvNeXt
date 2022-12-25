@@ -18,7 +18,7 @@ Indian Pine and pavia university can be downloded at https://www.ehu.eus/ccwintc
 
 WHU-Hi-HanChuan and WHU-Hi-HongHu can be downloded at http://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm
 
-You should put the HSI data and the corresponding target under the directory "./HSI_data"
+You should put the HSI data and the corresponding target under the directory "./HSIdata"
 
 An example dataset folder has the following structure:
 
@@ -35,7 +35,7 @@ HSI_data
 ## Usage
 Take DS²_cvNet method on the IN dataset as an example:
 
-1. Download the required data set and move to folder **./HSI_data**.
+1. Download the required data set and move to folder **./HSIdata**.
 2. Modify the file **config.josn**. If you choose In dataset, you should set patch size = 9, batch size = 16.
 3. create training, validation and test mask. Modify the corresponding paramater in the **config.josn**(i.e. **mask_para**)
 4. run main.py
