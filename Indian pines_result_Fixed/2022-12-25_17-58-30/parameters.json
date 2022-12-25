@@ -1,0 +1,27 @@
+{
+  "method": "DS2_cvNet",
+  "dataset": "Indian pines",
+  "epoch": 400,
+  "batch_size": 16,
+  "depths": [
+    3,
+    3,
+    9,
+    3
+  ],
+  "dims": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "patch_size": 9,
+  "lr": 0.0001,
+  "training_strategy": "Fixed",
+  "training_num": 200,
+  "training_time": 874.4891271591187,
+  "prediction_time": 17.744849681854248,
+  "id": "2022-12-25_17-58-30",
+  "map_save": "./Indian pines_result_Fixed/2022-12-25_17-58-30/",
+  "accuracy_save": "./Indian pines_result_Fixed/accuracy.csv"
+}
