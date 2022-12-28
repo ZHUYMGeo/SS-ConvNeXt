@@ -22,7 +22,7 @@ same_seeds(0)
 with open("config.json", "r") as f:
     config = json.load(f)
 
-#**********load HyperPara*********#
+#**********load Hyperparameter*********#
 data_name = config["data_name"]
 patch_size = config["train"]["patch_size"]
 lr = config["train"]["lr"]
