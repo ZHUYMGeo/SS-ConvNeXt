@@ -452,7 +452,7 @@ def train(model, epoch, train_dataset, val_dataset,
     # train_dataloader = DataLoader(train_dataset, 32, shuffle=True)
 
     train_dataloader = DataLoader(train_dataset, batch_size=batch_size,
-                                  shuffle=False)
+                                  shuffle=True)
     val_dataloader = DataLoader(val_dataset, batch_size=len(val_dataset), shuffle=False)
     # 开始训练
     loss_log = []
