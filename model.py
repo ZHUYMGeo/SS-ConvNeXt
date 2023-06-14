@@ -58,12 +58,12 @@ class LayerNorm(nn.Module):
             x = self.weight[:, None, None] * x + self.bias[:, None, None]
             return x
 
-class DS2_cvNet(nn.Module):
+class SS_ConvNeXt(nn.Module):
     def __init__(self, input_shape, num_classes: int = 16, depths: list = None,
                  dims: list = None, drop_path_rate: float = 0.5, layer_scale_init_value: float = 1e-6,
                  head_init_scale: float = 1.):
 
-        super(DS2_cvNet, self).__init__()
+        super(SS_ConvNeXt, self).__init__()
 
         self.input_shape = input_shape
         self.num_classes = num_classes
