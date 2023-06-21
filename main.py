@@ -9,7 +9,6 @@ from thop import profile
 import pdb
 from torchsummary import summary
 from thop import clever_format
-import composer.functional as cf
 
 #-------
 # indian pines   patch_size:9  batch size:16
