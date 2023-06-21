@@ -103,7 +103,7 @@ TrainDataset, ValDataset = get_train_val_dataset(data, target, train_mask,
 depths = [3, 3, 9, 3]
 dims = [64, 128, 256, 512]
 print("Creat DS2-cvNet model......")
-model = DS2_cvNet(input_shape=input_shape, num_classes=n_classes,
+model = SS_ConvNeXt(input_shape=input_shape, num_classes=n_classes,
                       depths=depths, dims=dims)
 model = model.cuda()
 calculate_param(model, input_shape)
