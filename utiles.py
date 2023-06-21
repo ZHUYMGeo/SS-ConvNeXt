@@ -455,9 +455,6 @@ def train(model, epoch, train_dataset, val_dataset,
                                   shuffle=True)
     val_dataloader = DataLoader(val_dataset, batch_size=len(val_dataset), shuffle=False)
     # 开始训练
-    loss_log = []
-    val_loss_log = []
-    valacc_log = []
     best_acc = 0
     best_model = None
     for epoch in range(epoch):
@@ -493,8 +490,6 @@ def train(model, epoch, train_dataset, val_dataset,
         print(time.ctime(), '[Epoch: %d]  [loss avg: %.5f]  [current loss: %.5f]  [current val acc: %.2f]' %
               (epoch + 1,total_loss / (i + 1), loss.item(), total_valacc / k))
         #
-        loss_log.append(total_loss / (i + 1))
-        valacc_log.append(total_valacc / k)
         if (epoch+1) % lr_interval == 0:
             scheduler.step()
 
@@ -507,7 +502,7 @@ def train(model, epoch, train_dataset, val_dataset,
 
     print('Finished Training')
 
-    return best_model, valacc_log, loss_log
+    return best_model
 
 
 def Train(model, epoch, train_dataset, val_dataset, parameter, batch_size):
