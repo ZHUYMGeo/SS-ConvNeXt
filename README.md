@@ -43,5 +43,5 @@ Take SS-ConvNeXt method on the IN dataset as an example:
 ## Results
 ### Numerical evaluation
 <img src="https://img1.imgtp.com/2023/06/21/UGp87PAX.png" alt="Table.png" title="Table.png" />
-### Visual evaluation
+###  Visual evaluation
 <img src="https://img1.imgtp.com/2023/06/21/ILrdeTsy.png" alt="ILrdeTsy.png" border="0" />
