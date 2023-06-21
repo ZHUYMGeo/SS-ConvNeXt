@@ -2,7 +2,7 @@ import os
 os.environ['CUDA_VISIBLE_DEVICES'] = "4"
 from utiles import *
 import json
-from model import DS2_cvNet
+from model import SS_ConvNeXt
 import time
 from parameters import Parameters
 from thop import profile
