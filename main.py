@@ -118,13 +118,12 @@ if __name__ == '__main__':
     print("Begin training......")
     begin_time = time.time()
 
-    net, valacc_log, loss_log = train(model, epoch,TrainDataset, ValDataset,
+    net = train(model, epoch,TrainDataset, ValDataset,
             {'lr': lr, 'optim': optim, 'criterion': criterion}, batch_size)
 
     end_time = time.time()
     T = end_time-begin_time
     print("Training Time: %.2f" % T)
-    show_curve(valacc_log, loss_log)
     print("Predicting......")
 
     begin_time = time.time()
