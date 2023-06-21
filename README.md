@@ -28,8 +28,14 @@ HSI_data
 │   │——Indian_pines_corrected.mat
 │   │——Indian_pines_gt.mat
 └───PU
-    │——PaviaU.mat
-    │——PaviaU_gt.mat
+|   │——PaviaU.mat
+|   │——PaviaU_gt.mat
+└───WHHC
+|   │——WHU_Hi_HanChuan.mat
+|   │——WHU_Hi_HanChuan_gt.mat
+└───WHHH
+|   │——WHU_Hi_HongHu.mat
+|   │——WHU_Hi_HongHu_gt.mat
 ```
 
 ## Usage
