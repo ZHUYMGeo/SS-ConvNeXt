@@ -2,7 +2,7 @@
 
 This is a code demo for the paper "Spatial-Spectral ConvNeXt for Hyperspectral Image Classification". More specifically, it is detailed as follow.
 
-<img src="https://i.328888.xyz/2022/12/25/DFBPw.png" alt="DFBPw.png" border="0" />
+<img src="[https://i.328888.xyz/2022/12/25/DFBPw.png" alt="DFBPw.png](https://img1.imgtp.com/2023/06/21/JePV3Ra1.png)" border="0" />
 
 
 ## environment we use
